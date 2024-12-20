@@ -9,7 +9,23 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.x",
+    "@testing-library/react": "^14.x",
+    "eslint": "^8.x",
+    "jest": "^29.x",
+    "prettier": "^2.x",
     "typescript": "~5.6.2",
     "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.2.1",
+    "@mui/styled-engine-sc": "^6.2.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-query": "^5.62.8",
+    "axios": "^1.7.9",
+    "hugeicons-react": "^0.3.0",
+    "styled-components": "^6.1.13"
   }
 }
