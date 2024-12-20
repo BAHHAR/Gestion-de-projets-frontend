@@ -5,27 +5,32 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.x",
-    "@testing-library/react": "^14.x",
-    "eslint": "^8.x",
-    "jest": "^29.x",
-    "prettier": "^2.x",
-    "typescript": "~5.6.2",
-    "vite": "^6.0.3"
-  },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.2.1",
     "@mui/styled-engine-sc": "^6.2.1",
     "@reduxjs/toolkit": "^2.5.0",
     "@tanstack/react-query": "^5.62.8",
     "axios": "^1.7.9",
     "hugeicons-react": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
     "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^6.0.3"
   }
 }
